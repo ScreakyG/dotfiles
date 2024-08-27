@@ -1,0 +1,12 @@
+brandonkirbyson.vscode-animations
+drcika.apc-extension
+github.copilot
+github.copilot-chat
+kube.42header
+monokai.theme-monokai-pro-vscode
+ms-vscode.cmake-tools
+ms-vscode.cpptools
+ms-vscode.cpptools-extension-pack
+ms-vscode.makefile-tools
+pkief.material-icon-theme
+twxs.cmake

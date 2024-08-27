@@ -1,0 +1,116 @@
+{
+    "42header.username": "fgonzale",
+    "42header.email": "fgonzale@student.42.fr",
+
+	    /**
+    * Better defaults
+    **/
+    "editor.copyWithSyntaxHighlighting": false,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "editor.emptySelectionClipboard": false,
+    "workbench.editor.enablePreview": false,
+    "window.newWindowDimensions": "inherit",
+    "editor.multiCursorModifier": "ctrlCmd",
+    "files.trimTrailingWhitespace": true,
+    "diffEditor.renderSideBySide": false,
+    "editor.snippetSuggestions": "top",
+    "editor.detectIndentation": false,
+    "window.nativeFullScreen": false,
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+
+    "files.autoSave": "afterDelay",
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDelete": false,
+    "editor.scrollbar.verticalScrollbarSize": 14,
+    "window.zoomLevel": 1.5,
+    "editor.tabSize": 4,
+    "workbench.sideBar.location": "right",
+    "explorer.compactFolders": false,
+
+    "window.commandCenter": false,
+    "window.menuBarVisibility": "compact",
+    "workbench.statusBar.visible": false,
+    "editor.minimap.enabled": false,
+    "workbench.layoutControl.enabled": false,
+    "window.titleBarStyle": "custom",
+
+    "editor.guides.indentation": false,
+    "editor.renderWhitespace": "none",
+    "editor.matchBrackets": "never",
+
+    "breadcrumbs.enabled": false,
+
+    /**-
+    * Tabs management
+    **/
+    "window.density.editorTabHeight": "default",
+    "workbench.editor.showTabs": "multiple",
+
+    /**-
+    * Font settings
+    **/
+    "editor.fontFamily": "JetBrains Mono", //Overwritten by APC.
+    "editor.fontSize": 12,
+    "editor.fontLigatures": false,
+    "editor.lineHeight": 0,
+
+    "terminal.integrated.fontFamily": "JetBrains Mono, JetBrainsMono Nerd Font",
+    "terminal.integrated.fontSize": 12,
+    "terminal.integrated.lineHeight": 1.2,
+
+    /**-
+    * Color customs
+    **/
+    "workbench.colorCustomizations": {
+        "sideBar.background": "#282A3A",
+    },
+
+    /**-
+    * Cursor settings
+    **/
+    "editor.cursorBlinking": "solid",
+    "editor.cursorSmoothCaretAnimation": "on",
+
+     "apc.electron": {
+          "opacity": 1,
+          "titleBarStyle": "hiddenInset",
+      },
+      "apc.listRow": {
+        "lists": [
+            "explorer-folders-view",
+            "quick-input-list",
+            "results"
+        ],
+        "height": 25,
+        "fontSize": 12
+      },
+
+    "apc.stylesheet": {
+       "*": "font-family: JetBrains Mono;",
+       ".editor .title": "background: transparent !important;",
+
+        // Only show the scrollbar on hover.
+       ".editor .scrollbar .slider": "visibility: hidden",
+       ".editor .scrollbar:hover .slider": "visibility: initial",
+    },
+
+    "workbench.iconTheme": "Monokai Pro (Filter Octagon) Icons",
+    "workbench.colorTheme": "Monokai Pro (Filter Octagon)",
+    "animations.Install-Method": "Apc Customize UI++",
+    "apc.imports": [
+        "file://${userHome}/.vscode/extensions/brandonkirbyson.vscode-animations-2.0.3/dist/updateHandler.js"
+    ],
+    "workbench.activityBar.location": "hidden",
+    "github.copilot.enable": {
+        "*": false,
+        "plaintext": false,
+        "markdown": false,
+        "scminput": false
+    },
+    "animations.Enabled": false,
+    "makefile.configureOnOpen": true,
+
+
+  }
+
